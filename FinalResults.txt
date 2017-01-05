@@ -1,0 +1,40 @@
+Obama Analysis Result:
+
+Best Classifier : SVM
+
+Test Accuracy:0.59354177345
+             precision    recall  f1-score   support
+
+         -1       0.58      0.67      0.62       688
+          0       0.58      0.56      0.57       681
+          1       0.62      0.55      0.58       582
+
+avg / total       0.59      0.59      0.59      1951
+
+Confusion Matrix:
+[[460 139  89]
+ [196 380 105]
+ [133 131 318]]
+
+
+ --------------------------------------------------
+
+
+ Romney Analysis Results:
+
+ Best Classifier : Voting Classifer(Naive Bayes, SVM, Random Forest, SGD Classifer {Used Hard Voting})
+
+ Test Accuracy:0.609473684211
+             precision    recall  f1-score   support
+
+         -1       0.62      0.87      0.73       960
+          0       0.68      0.20      0.30       555
+          1       0.54      0.55      0.54       385
+
+avg / total       0.62      0.61      0.57      1900
+
+Confusion Matrix:
+[[836  38  86]
+ [348 109  98]
+ [159  13 213]]
+
